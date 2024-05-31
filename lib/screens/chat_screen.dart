@@ -15,7 +15,7 @@ class _ChatScreenState extends State<ChatScreen> {
         itemCount: 26,
         shrinkWrap: true,
         itemBuilder: (context, index) {
-          return ListTile(
+          return const ListTile(
             leading: CircleAvatar(
               radius: 20,
               backgroundImage: AssetImage("images/img.png"),
@@ -28,8 +28,8 @@ class _ChatScreenState extends State<ChatScreen> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        backgroundColor: Color(0xFF008069),
-        child: Icon(
+        backgroundColor: const Color(0xFF008069),
+        child: const Icon(
           Icons.chat,
           color: Colors.white,
         ),

@@ -14,7 +14,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Whatsapp UI Clone',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.greenAccent),
+        colorScheme:
+            ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 13, 255, 0)),
         useMaterial3: true,
       ),
       home: const SplashScreen(),
